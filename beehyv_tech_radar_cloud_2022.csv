@@ -1,0 +1,67 @@
+name,ring,quadrant,isNew,description
+AWS  EC2,aws,adopt,FALSE,"Elastic Cloud Compute(EC2) is part of AWS compute services and provides Secure and resizeable compute capacity
+(virtual servers) in the cloud. AWS EC2 was among the initial cloud offerings from AWS and we also  have also been using it to deploy various applications since its inception. "
+Azure Virtual Machines,azure,adopt,FALSE,Virtual Machines provides infrastructure as a service (IaaS) and can be used in different ways. VMs are an ideal choice when we  need total control over an operating system and environment. We have used Azure Virtual machines while deploying applications in Azure ecosystem
+Google Compute Engine,gcp,adopt,FALSE,On-demand instances in the cloud can be used to run many applications instead of maintaining servers on-premise. We have used GCP compute while deploying applications  in GCP ecosystem
+AWS ECS,aws,adopt,FALSE,"Cloud providers provide highly secure, reliable, and scalable way
+to run containers.  AWS provides ECS and EKS to run contairized applications. Though EKS is based on cloud agnostic Kubernetes and has orchestration, ECS could be cost-effective when there are lesser containers. Based on the requirements, we have leveraged AWS ECS to run containers built across OS and programming languages.We would leverage Container instances when we need to run containers in cloud based on the application and its scale.
+"
+Azure Container Instances,azure,trial,FALSE,"Cloud providers provide highly secure, reliable, and scalable services
+to run containers. Azure provides Container Instances and Azure Kubernetes service to run containers.  Container instances provide a fast and simple way to run containers when there is no added benefit with orchestration service. Though we haven't run production applications in Azure Container instances,  We would leverage Container instances when we need to run containers in cloud based on the application and its scale."
+AWS - S3/EBS/EFS/FSx/Glacier,aws,adopt,FALSE,"Object, Disk and File storage in cloud is required across scenarios for running applications in the cloud. We have leveraged S3, EBS, EFS, FSx and Glacier in various scenarios. Each of them provides multiple options,  We would provide well-architected solutions leveraging right storage based on the usecase."
+"Azure - Blob, managed disks, Files",azure,adopt,FALSE,"Object, Disk and File storage in cloud is required across scenarios for running applications in the cloud. We have leveraged blob, managed disks and Files in various scenarios.Each of them provides multiple options,  We would provide well-architected solutions leveraging right storage based on the usecase."
+"GCP - Object,File, ",gcp,adopt,FALSE,"Object, Disk and File storage in cloud is required across scenarios for running applications in the cloud. We have leveraged Azure blob, managed disks and Files in various scenarios.Each of them provides multiple options, We would provide well-architected solutions leveraging right storage based on the usecase."
+"Google - Firebase Storage, Storage Transfer Service",gcp,assess,FALSE,GCP  Storage
+AWS - Elastic/Classic Load balancers,aws,adopt,FALSE,AWS provides various types of load balancers to distribute tasks across resources at network layers. We have worked extensibely with AWS Elastic and Network load balancers. We would architect solutions selecting the load balancer and its settings based on the usecase.
+"Azure load balancers/Application Gateways, ",azure,adopt,FALSE,Azure provides various types of load balancers to distribute tasks across resources at network layers. We have worked extensibely with Azure load balancers and Application Gateways. We would architect solutions selecting the load balancer and its settings based on the usecase.
+Google load balancers,gcp,adopt,FALSE,Google provides various types of load balancers to distribute tasks across resources at network layers. We have worked extensibely with Google cloud load balacing. We would architect solutions selecting the load balancer and its settings based on the usecase.
+VPC,aws,adopt,FALSE,"Networking is crucial in the cloud to design secure solutions. W ehave worked extensively with AWS VPC to design secure, reliable applications"
+Virtual Network,azure,adopt,FALSE,"Networking is crucial in the cloud to design secure solutions. W ehave worked extensively with Azure Networking to design secure, reliable applications"
+VPC,gcp,adopt,FALSE,"Networking is crucial in the cloud to design secure solutions. W ehave worked extensively with GCP VPC to design secure, reliable applications"
+RDS,aws,adopt,FALSE,"Managed SQL databases in the cloud provide options for scaling on-demand and  handling disaster recovery. They also provide patches and upgrades in a timely manner. AWS provides RDS with an option to run on both opensource and commercial SQL databases, AWS also ghas Aurora with distribtued storage and optimized querying which provides 3* faster responeses. We have worked extensively with RDS on MySQL and Aurora Engines "
+Azure Managed Database Services,azure,adopt,FALSE,"Managed SQL databases in the cloud provide options for scaling on-demand and handling disaster recovery. They also provide patches and upgrades in a timely manner. AWS provides RDS with an option to run on both opensource and commercial SQL databases, AWS also ghas Aurora with distribtued storage and optimized querying which provides 3* faster responeses. We have worked extensively with RDS on MySQL and Aurora Engines"
+Google Cloud SQL,gcp,adopt,FALSE,"Managed SQL databases in the cloud provide options for scaling on-demand and handling disaster recovery. They also provide patches and upgrades in a timely manner. AWS provides RDS with an option to run on both opensource and commercial SQL databases, AWS also ghas Aurora with distribtued storage and optimized querying which provides 3* faster responeses. We have worked extensively with RDS on MySQL and Aurora Engines"
+AWS Cloud Watch,aws,adopt,FALSE,"Monitoring and timely intervention is crucial for production workloads. We have worked extensively with AWS CloudWatch and leveraged it for alarms, auto-scaling  , log insights among others. Having said that, cloud agnostic  solutions like ELK, Prometheus can be leveraged for logging and monitoring, specially for muti-cloud and other complex scenarios. We recommened using CloudWatch for quick start and leverage other solutions as needed based on the scale"
+Azure Logs&Monitor,azure,adopt,FALSE,"Monitoring and timely intervention is crucial for production workloads. We have worked extensively with Azure Logs and Monitor and leveraged it for alarms, auto-scaling  , log insights among others. Having said that, cloud agnostic  solutions like ELK, Prometheus can be leveraged for logging and monitoring, specially for muti-cloud and other complex scenarios. We recommened using Azure Logs & Monitor for quick start and leverage other solutions as needed based on the scale"
+GCP operations suite,gcp,adopt,FALSE,"Monitoring and timely intervention is crucial for production workloads. We have worked extensively with GCP Operations Suite and leveraged it for alarms, auto-scaling  , log insights among others. Having said that, cloud agnostic  solutions like ELK, Prometheus can be leveraged for logging and monitoring, specially for muti-cloud and other complex scenarios. We recommened using GCP Operations Suite for quick start and leverage other solutions as needed based on the scale"
+Azure Cosmos DB,azure,assess,FALSE,"NoSQL Columnar databases provide unique benefits w.r.t distributed computing and handling Big Data. Azure provides Cosmos DB for ... Though this is Cloud specific service, we want to assess it to leverage its benefits"
+AWS Dynamo,aws,adopt,FALSE,"NoSQL Columnar databases provide unique benefits w.r.t distributed computing and handling Big Data. AWS provides managed DynamoDB which provides millisecond latency for mbillions of rows. We have leveraged it for some ***, but since costing is highgly dependant on usage and indices, the design should be right to avail its benefits. We recommend using it for """""" "
+Google Big Table,gcp,adopt,FALSE,"NoSQL Columnar databases provide unique benefits w.r.t distributed computing and handling Big Data. GCP provides managed BigTable which provides millisecond latency for mbillions of rows. We have leveraged it for some ***, but since costing is highgly dependant on usage and indices, the design should be right to avail its benefits. We recommend using it for """""""
+AWS Lambda/Fargate,aws,adopt,FALSE,AWS  Serverless Compute
+Azure Functions,azure,adopt,FALSE,AZURE  Serverless Compute
+Google Functions,gcp,adopt,FALSE,GCP  Serverless Compute
+AWS Redshift ,aws,trial,FALSE,AWS  Analytical Database
+Azure Synapse Analytics,azure,adopt,FALSE,AZURE  Analytical Database
+Google BigTable,gcp,adopt,FALSE,GCP  Analytical Database
+IBM ROKS,other,trial,FALSE,IBM  Managed Kubernetes Services
+EKS -Managed Kubernetes Services,aws,adopt,FALSE,AWS  Managed Kubernetes Services
+AKS -Managed Kubernetes Services,azure,adopt,FALSE,AZURE  Managed Kubernetes Services
+GKS -Managed Kubernetes Services,gcp,adopt,FALSE,GCP  Managed Kubernetes Services
+AWS Route 53,aws,adopt,FALSE,AWS  DNS Services
+Google Cloud DNS,gcp,adopt,FALSE,GCP  DNS Services
+Azure DNS,azure,adopt,FALSE,AZURE  DNS Services
+AWS Cloud Watch,aws,adopt,FALSE,AWS  Monitoring & Alerts
+Azure Logs&Monitor,azure,adopt,FALSE,AZURE  Monitoring & Alerts
+Google Cloud operation suite,gcp,adopt,FALSE,GCP  Monitoring & Alerts
+IBM Tivoli,other,trial,FALSE,IBM  Monitoring & Alerts
+AWS IAM,aws,adopt,FALSE,AWS  Security
+Azure AD,azure,adopt,FALSE,AZURE  Security
+Google Cloud IAM,gcp,adopt,FALSE,GCP  Security
+Azure CI/CD,azure,adopt,FALSE,AZURE  CI/D+CD
+AWS CI/CD,aws,trial,FALSE,AWS  Ci/CD
+AWS CloudFormation,aws,adopt,FALSE,AWS  Automation
+Azure Resource Manager,azure,hold,FALSE,AZURE  Automation
+GCP Deployment Manager,gcp,hold,FALSE,GCP  Automation
+AWS Kinesis,aws,trial,FALSE,AWS  Streaming
+Azure EventHubs,azure,assess,FALSE,AZURE  Streaming
+Google Pub/Sub,gcp,assess,FALSE,GCP  Streaming
+Azure Databricks,azure,trial,FALSE,AZURE  Datalake
+AWS Datalake,aws,assess,FALSE,AWS  Datalake
+AWS SageMaker,aws,trial,FALSE,AWS  ML
+Azure Machine Learning,azure,assess,FALSE,AZURE  ML
+Google BIGML,gcp,trial,FALSE,GCP  ML
+AWS DMS,aws,adopt,FALSE,AWS  Data Migration
+AWS SQS,aws,trial,FALSE,AWS  Queue Services
+Azure  Storage Queues,azure,assess,FALSE,AZURE  Queue Services
+Google Queue Services,gcp,assess,FALSE,GCP  Queue Services
+Terraform-Cloud,other,trial,FALSE,Tool for teams to work collabratively on terraform
