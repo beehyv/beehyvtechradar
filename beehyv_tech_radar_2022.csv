@@ -1,210 +1,168 @@
 name,ring,quadrant,isNew,description
-Java,adopt,languages,FALSE,"test"
-Go,trial,languages,FALSE,"test"
-Scala,trial,languages,FALSE,"test"
-Javascript,adopt,languages,FALSE,"test"
-Python,adopt,languages,FALSE,"test"
-Typescript,trial,languages,FALSE,"test"
-PHP,trial,languages,FALSE,"test"
-C#,trial,languages,FALSE,"test"
-Swift,adopt,languages,FALSE,"test"
-Dart,trial,languages,FALSE,"test"
-Rust,assess,languages,FALSE,"test"
-Groovy,adopt,languages,FALSE,"test"
-Objective-C,hold,languages,FALSE,"<p>Though Apple introducted Swift language more than 8 years ago for iOS application development,  there are still many applications developed in Objective-C in AppStore. Though our teams have devloped many applications in Objective-C in the past and would continue to support them as needed, we have shifted completely to Swift for new iOS development and recommened new application developers to use Swift for iOS app development </p>"
-Kotlin,assess,languages,FALSE,"<p>Kotlin https://kotlinlang.org/, an opensource programming language from Jetbrains released in 2016 with compatibility with  Java ecosystem has raised in popularity since Android announced its Kotlin first approach in 2019. Now more than 60% of Professional Android developers are in Kotlin. We mainly use Kotlin for native Android development. Though at Beehyv, we lean towards ReactNative and Flutter for building hybrid mobile applications, we think Kotlin needs to be assessed to realise its benefits in building multi-platform applciations and its support for other usecases. </p>"
-Spring-Boot,adopt,frameworks,FALSE,"test"
-Play,assess,frameworks,FALSE,"test"
-Quarkus,assess,frameworks,FALSE,"test"
-Spring-Cloud,trial,frameworks,FALSE,"test"
-Zkoss,assess,frameworks,FALSE,"test"
-Arrow SQL,assess,frameworks,FALSE,"test"
-FastAPI,adopt,frameworks,FALSE,"test"
-Flask,adopt,frameworks,FALSE,"test"
-Tornado,trial,frameworks,FALSE,"test"
-Django,trial,frameworks,FALSE,"test"
-ExpressJS,adopt,frameworks,FALSE,"test"
-Hapi,assess,frameworks,FALSE,"test"
-NodeJS,adopt,frameworks,FALSE,"test"
-Laravel,trial,frameworks,FALSE,"test"
-WordPress,trial,frameworks,FALSE,"test"
-CodeIgnitor,hold,frameworks,FALSE,"test"
-RoR,trial,frameworks,FALSE,"test"
-Gin,assess,frameworks,FALSE,"test"
-Kafka,adopt,frameworks,FALSE,"test"
-RabbitMQ,adopt,frameworks,FALSE,"test"
-IBM MQ,trial,frameworks,FALSE,"test"
-ActiveMQ,adopt,frameworks,FALSE,"test"
-Nagios,trial,frameworks,FALSE,"test"
-Prometheus,adopt,frameworks,FALSE,"test"
-Fluentd/Fluentbit,adopt,frameworks,FALSE,"test"
-Kibana,adopt,frameworks,FALSE,"test"
-Athena,assess,frameworks,FALSE,"test"
-Metricbeat,assess,frameworks,FALSE,"test"
-Graphana,adopt,frameworks,FALSE,"test"
-LogStash,adopt,frameworks,FALSE,"test"
-DataDog,trial,frameworks,FALSE,"test"
-Geneos,trial,frameworks,FALSE,"test"
-Sentry,trial,frameworks,FALSE,"test"
-NewRelic,trial,frameworks,FALSE,"test"
-Chef,trial,frameworks,FALSE,"test"
-Circle CI,trial,frameworks,FALSE,"test"
-Ansible,adopt,frameworks,FALSE,"test"
-Terraform,adopt,frameworks,FALSE,"test"
-Pulumi,assess,frameworks,FALSE,"test"
-Docker,adopt,frameworks,FALSE,"test"
-Kubernetes,adopt,frameworks,FALSE,"test"
-Jenkins,adopt,frameworks,FALSE,"test"
-TeamCity,hold,frameworks,FALSE,"test"
-Gitlab CI/GitHub Actions,adopt,frameworks,FALSE,"test"
-Podman,assess,frameworks,FALSE,"test"
-Helm,adopt,frameworks,FALSE,"test"
-Kuberntes Operators,trial,frameworks,FALSE,"test"
-Tekton,assess,frameworks,FALSE,"test"
-LocalStack,assess,frameworks,FALSE,"test"
-Kubernetes - Traefik Controller,assess,frameworks,FALSE,"test"
-Kubernetes - Nginx Ingress Controller,adopt,frameworks,FALSE,"test"
-Kops,assess,frameworks,FALSE,"test"
-KeyCloak,trial,frameworks,FALSE,"test"
-FlexDeploy,hold,frameworks,FALSE,"test"
-Argo,assess,frameworks,FALSE,"test"
-Jenkins X,assess,frameworks,FALSE,"test"
-SAML,trial,frameworks,FALSE,"test"
-Talend,trial,frameworks,FALSE,"test"
-Oauth,adopt,frameworks,FALSE,"test"
-Kerberos,adopt,frameworks,FALSE,"test"
-LDAP,adopt,frameworks,FALSE,"test"
-Airflow,trial,frameworks,FALSE,"test"
-Angular,adopt,frameworks,FALSE,"test"
-React,adopt,frameworks,FALSE,"test"
-Vue,trial,frameworks,FALSE,"test"
-ExtJS,trial,frameworks,FALSE,"test"
-Redux,trial,frameworks,FALSE,"test"
-jQuery,hold,frameworks,FALSE,"test"
-NgRx,trial,frameworks,FALSE,"test"
-Svelte,assess,frameworks,FALSE,"test"
-Flutter,adopt,frameworks,FALSE,"test"
-ReactNative,adopt,frameworks,FALSE,"test"
-Xamarin,hold,frameworks,FALSE,"test"
-ionic,hold,frameworks,FALSE,"test"
-LeakCanary,assess,frameworks,FALSE,"test"
-GetX,trial,frameworks,FALSE,"test"
-Arrow,adopt,frameworks,FALSE,"test"
-Spark,adopt,frameworks,FALSE,"test"
-Superset,trial,frameworks,FALSE,"test"
-MySQL,adopt,frameworks,FALSE,"test"
-Hive,trial,frameworks,FALSE,"test"
-Hadoop,trial,frameworks,FALSE,"test"
-Presto,assess,frameworks,FALSE,"test"
-Dremio,assess,frameworks,FALSE,"test"
-Zookeeper,trial,frameworks,FALSE,"test"
-Postgres,adopt,frameworks,FALSE,"test"
-Mongo,adopt,frameworks,FALSE,"test"
-Elastic,adopt,frameworks,FALSE,"test"
-IRIS,trial,frameworks,FALSE,"test"
-Redis,adopt,frameworks,FALSE,"test"
-Neo4J,trial,frameworks,FALSE,"test"
-Virtuoso,trial,frameworks,FALSE,"test"
-SQL Server,trial,frameworks,FALSE,"test"
-Couch,adopt,frameworks,FALSE,"test"
-CockroachDB,assess,frameworks,FALSE,"test"
-Junit,adopt,frameworks,FALSE,"test"
-Hbase,trial,frameworks,FALSE,"test"
-Cassandra,assess,frameworks,FALSE,"test"
-Solr,trial,frameworks,FALSE,"test"
-Mockito,adopt,frameworks,FALSE,"test"
-EasyMock,trial,frameworks,FALSE,"test"
-Cypress,trial,frameworks,FALSE,"test"
-Selenium,adopt,frameworks,FALSE,"test"
-Proctractor,adopt,frameworks,FALSE,"test"
-Chai,adopt,frameworks,FALSE,"test"
-Mocha,adopt,frameworks,FALSE,"test"
-Cucumber,trial,frameworks,FALSE,"test"
-Robot,trial,frameworks,FALSE,"test"
-PyTest,adopt,frameworks,FALSE,"test"
-Jmeter,adopt,frameworks,FALSE,"test"
-Locust,trial,frameworks,FALSE,"test"
-AutoML,trial,frameworks,FALSE,"test"
-LoadRunner,trial,frameworks,FALSE,"test"
-Appium,adopt,frameworks,FALSE,"test"
-Jest,trial,frameworks,FALSE,"test"
-Rasa,trial,frameworks,FALSE,"test"
-OpenNLP,adopt,frameworks,FALSE,"test"
-StanfordNLp,adopt,frameworks,FALSE,"test"
-NLTK,adopt,frameworks,FALSE,"test"
-scikit-learn,adopt,frameworks,FALSE,"test"
-Tensorflow,trial,frameworks,FALSE,"test"
-PyTorch,assess,frameworks,FALSE,"test"
-DeepLearning4J,adopt,frameworks,FALSE,"test"
-sparkml,adopt,frameworks,FALSE,"test"
-OpenCV,adopt,frameworks,FALSE,"test"
-GISServer,trial,frameworks,FALSE,"test"
-Weka,trial,frameworks,FALSE,"test"
-Nutch,trial,frameworks,FALSE,"test"
-HyperLedger Fabric,trial,frameworks,FALSE,"test"
-Leaflet,Adopt,frameworks,FALSE,"test"
-Maven,Adopt,frameworks,FALSE,"test"
-Gradle,trial,frameworks,FALSE,"test"
-Pip,Adopt,frameworks,FALSE,"test"
-Grunt,trial,frameworks,FALSE,"test"
-Gulp,trial,frameworks,FALSE,"test"
-WebPack,Adopt,frameworks,FALSE,"test"
-Zero Trust Architecture,adopt,techniques,FALSE,"test"
-Reactive Programming,trial,techniques,FALSE,"test"
-Functional Programming,adopt,techniques,FALSE,"test"
-Asynchronous programming,adopt,techniques,FALSE,"test"
-Microservices Architecture,adopt,techniques,FALSE,"test"
-Event driven architecture,adopt,techniques,FALSE,"test"
-Using Query langugae methology for APIs - GraphQL,trial,techniques,FALSE,"test"
-Using Remote Procedure Calls for APIs - gRPC,trial,techniques,FALSE,"test"
-Design Sprints from Google Ventures,assess,techniques,FALSE,"test"
-Privileged Access Management in AWS,adopt,techniques,FALSE,"test"
-Service Mesh for communication,assess,techniques,FALSE,"Compute"
-Design systems,trial,techniques,FALSE,"AWS - S3/EBS/EFS/FSx/Glacier, Azure - Blobs/Disks/Files , Google - Cloud Storage/Persistent Disk/FileStore"
-Micro Frontend architecture,assess,techniques,FALSE,"Azure - Queues/Tables , Google - Firebase Storage, Storage Transfer Service"
-Using GitOps for Continuous deployment,assess,techniques,FALSE,"test"
-Storage,adopt,tools&platforms,FALSE,"Azure load balancers/Application Gateways, AWS - Elastic/Classic Load balancers, Google load balancers"
-Storage,assess,tools&platforms,FALSE,"VPC"
-Networking,adopt,tools&platforms,FALSE,"RDS, Google Cloud SQL, Azure Managed Database Services"
-Loadbalancer,adopt,tools&platforms,FALSE,"AWS Cloud Watch, Azure Logs&Monitor, Google ?"
-Networking,adopt,tools&platforms,FALSE,"Azure Cosmos DB"
-Managed SQL Database,adopt,tools&platforms,FALSE,"AWS Dynamo, Google Big Table"
-Monitoring,adopt,tools&platforms,FALSE,"AWS Lambda/Fargate, Azure Functions, Google Functions"
-No SQL Database,assess,tools&platforms,FALSE,"AWS Redshift , Google BigTable, Azure"
-No SQL Database,adopt,tools&platforms,FALSE,"IBM ROKS"
-Serverless Compute,adopt,tools&platforms,FALSE,"AKS, EKS, KKS"
-Analytical Database,adopt,tools&platforms,FALSE,"AWS Route 53, Google Cloud DNS, Azure DNS"
-Managed Kubernetes Services,trial,tools&platforms,FALSE,"AWS Cloud Watch, Azure Logs&Monitor, Google Cloud operation suite, IBM Tivoli"
-Managed Kubernetes Services,adopt,tools&platforms,FALSE,"AWS IAM , Azure AD, Google Cloud IAM"
-DNS Services,adopt,tools&platforms,FALSE,"Azure CI/CD"
-Monitoring & Alerts,adopt,tools&platforms,FALSE,"AWS CI/CD"
-Security,adopt,tools&platforms,FALSE,"AWS CloudFormation"
-CI/D+CD,adopt,tools&platforms,FALSE,"Azure/GCP"
-Ci/CD,assess,tools&platforms,FALSE,"AWS Kinesis"
-Automation,adopt,tools&platforms,FALSE,"Azure/GCP"
-Automation,assess,tools&platforms,FALSE,"Azure Databricks"
-Streaming,trial,tools&platforms,FALSE,"AWS Datalake"
-Streaming,assess,tools&platforms,FALSE,"Google BIGML"
-Datalake,trial,tools&platforms,FALSE,"AWS DMS"
-Datalake,assess,tools&platforms,FALSE,"AWS SQS,"
-ML,trial,tools&platforms,FALSE,"Azure , Google Queue Services"
-Data Migration,trial,tools&platforms,FALSE,"test"
-Queue Services,trial,tools&platforms,FALSE,"test"
-Queue Services,assess,tools&platforms,FALSE,"test"
-Postman,adopt,tools&platforms,FALSE,"test"
-VSCode,adopt,tools&platforms,FALSE,"test"
-IntelliJ/PyCharm,adopt,tools&platforms,FALSE,"test"
-Minikube,adopt,tools&platforms,FALSE,"test"
-AquaScan,trial,tools&platforms,FALSE,"test"
-Snyk,trial,tools&platforms,FALSE,"test"
-WhiteSource,trial,tools&platforms,FALSE,"test"
-SonarQube,adopt,tools&platforms,FALSE,"test"
-React Profiler,adopt,tools&platforms,FALSE,"test"
-jProfiler,adopt,tools&platforms,FALSE,"test"
-Iceberg,trial,tools&platforms,FALSE,"test"
-Anypoint MuleSoft,trial,tools&platforms,FALSE,"test"
-Splunk,trial,tools&platforms,FALSE,"test"
-Terraform-Cloud,trial,tools&platforms,FALSE,"test"
-Swagger,adopt,tools&platforms,FALSE,"test"
-OpsMx,assess,tools&platforms,FALSE,"test"
-Spinnaker,assess,tools&platforms,FALSE,"test"
+Spring-Boot,adopt,frameworks,FALSE,<p>Java framework</p>
+Quarkus,assess,frameworks,FALSE,<p>Java framework</p>
+Spring-Cloud,trial,frameworks,FALSE,<p>Java framework</p>
+Arrow SQL,assess,frameworks,FALSE,<p>Java framework</p>
+Asp.Net,trial,frameworks,FALSE,<p> .Net framework </p>
+FastAPI,adopt,frameworks,FALSE,<p>Python Framework</p>
+Flask,adopt,frameworks,FALSE,<p>Python Framework</p>
+Tornado,trial,frameworks,FALSE,<p>Python Framework</p>
+Django,trial,frameworks,FALSE,<p>Python Framework</p>
+ExpressJS,adopt,frameworks,FALSE,<p>Node framework </p>
+Hapi,assess,frameworks,FALSE,<p>Node framework </p>
+NodeJS,adopt,frameworks,FALSE,<p> JS runtime </p>
+Laravel,trial,frameworks,FALSE,<P>PHP framework </p>
+WordPress,trial,frameworks,FALSE,<P>PHP framework </p>
+CodeIgnitor,hold,frameworks,FALSE,<P>PHP framework </p>
+RoR,trial,frameworks,FALSE,<P> Ruby Framework </p>
+Gin,assess,frameworks,FALSE,<P>Go framework</p>
+Angular,adopt,frameworks,FALSE,<p> UI Framework </p>
+React,adopt,frameworks,FALSE,<p> UI Framework </p>
+Vue,trial,frameworks,FALSE,<p> UI Framework </p>
+ExtJS,trial,frameworks,FALSE,<p> UI Framework </p>
+Redux,trial,frameworks,FALSE,<p> UI Framework </p>
+jQuery,hold,frameworks,FALSE,<p> UI Framework </p>
+NgRx,trial,frameworks,FALSE,<p> UI Framework </p>
+Svelte,assess,frameworks,FALSE,<p> UI Framework </p>
+Flutter,adopt,frameworks,FALSE,<p> Hybrid mobile development framework </p>
+ReactNative,adopt,frameworks,FALSE,<p> Hybrid mobile development framework </p>
+Xamarin,hold,frameworks,FALSE,<p> Hybrid mobile development framework </p>
+ionic,hold,frameworks,FALSE,<p> Hybrid mobile development framework </p>
+Kibana,adopt,frameworks,FALSE,"<p>Kibana https://www.elastic.co/kibana/ is an opensource interactive visualization tool for Elastic data, we have leveraged it as part of elk stack for cloud agnostic logging and monitoring </p>"
+Graphana,adopt,frameworks,FALSE,<p>Graphana is an opensource https://grafana.com/oss/ monitoring and analytics platform. We have used it with prometheus extensively and would leverage it for cloud agnostic monitoring </p>
+Helm,adopt,frameworks,FALSE,<p>Package Manager for Kubernetes </p>
+Kuberntes Operators,trial,frameworks,FALSE,"<p>Kubernetes operators https://kubernetes.io/docs/concepts/extend-kubernetes/operator/ are software extensions to kubernetes which help in operational excellence specially in maintaining kubernetes clusters for complex applications and their components . We have leveraged 3rd party operators and appreciate the advantages specially w.r.t upgrades/backups among others, we would choose operators along with Helm based on the necessity </p>"
+Tekton,assess,frameworks,FALSE,"<p>Tekton is a cloud native CI/CD tool , we would like to explore to see where it fits w.r.t existing CI/CD tools being used </p>"
+LocalStack,trial,frameworks,FALSE,"<p>LocalStack is a fully functional local cloud stack, it helps in setting up developing and testing serverless and cloud infrastructure locally. There are limitations w.r.t EKS in the community edition, hence we would leverage it when applicable to save cloud costs</p>"
+Kubernetes - Traefik Controller,assess,frameworks,FALSE,"<p> Traefik https://traefik.io/traefik/ provides cloud native networking platform, would like to explore as an alternate to Ingress controller </p>"
+Kops,assess,frameworks,FALSE,<p>Kops kOps https://kops.sigs.k8s.io/ - Kubernetes Operations used by kubernetes internally calls itself the easiest way to get a production grade Kubernetes cluster up and running. We would like to explore it </p>
+KeyCloak,trial,frameworks,FALSE,"<p>Keycloak https://www.keycloak.org/ is an open source identity and access management solution. It has dmin console to manage users, support for  standard protocols, SSO, user federation and role based authorization . It also supports fine-grained authorization useful for microservices development. We have used it across projects and would is one of our go-to security frameworks </p>"
+Jenkins X,assess,frameworks,FALSE,<p>Jenkins X https://jenkins-x.io/ is a Cloud Native CI/CD platform . We would like to explore it as an alternate to exising CI/CD tools</p>
+GetX,trial,frameworks,FALSE,<p>GetX https://pub.dev/packages/get   is a light-weight high performant state management framework for Flutter. We have leveraged it in one of our projects and would use it based on the ecosystem </p>
+Spark,adopt,frameworks,FALSE,<p>Spark  https://spark.apache.org/ is an engine for large scale analytics. We have leveraged Spark SQL and Spark MLLib across projects. We will use it based on the necessity </p>
+Superset,trial,frameworks,FALSE,<p> Superset is modern https://superset.apache.org/ data exploration and visualization platform. It intregrates with lots of databases and provides no-code rich visualizations. We have leveraged it for few of our projects and would select it based on the ecosystem </p>
+Hadoop,trial,frameworks,FALSE,"<p>Hadoop https://hadoop.apache.org/ provides framework for distributed processing. We have worked with tools and softwares built leveraging Hadoop.  With Hadoop being also supported by cloud providers for running map/reduce jobs, we will leverage Hadoop based on the ecosystem </p>"
+Junit,adopt,frameworks,FALSE,<p>Java Unit testing library </p>
+Mockito,adopt,frameworks,FALSE,<p>Java Unit testing library </p>
+EasyMock,trial,frameworks,FALSE,<p>Java Unit testing library </p>
+Cypress,trial,frameworks,FALSE,<p> End to End testing library for web applications</p>
+Playwright,assess,frameworks,TRUE,<p>End to End testing library for web applications </p>
+Selenium,adopt,frameworks,FALSE,<p> End to End testing library for web applications.</p>
+Proctractor,adopt,frameworks,FALSE,<p> End to End testing library for web applications</p>
+Chai,adopt,frameworks,FALSE,<p> Javascript Unit testing library </p>
+Mocha,adopt,frameworks,FALSE,<p>Javascript Unit testing library </p>
+Robot,trial,frameworks,FALSE,<p> Test automation framework </p>
+PyTest,adopt,frameworks,FALSE,<p> Python Unit testing libary</p>
+Locust,trial,frameworks,FALSE,<p>Load testing tool </p>
+Appium,adopt,frameworks,FALSE,<p>Mobile testing framework</p>
+Jest,trial,frameworks,FALSE,<p> Javascript Unit testing library </p>
+Restassured,assess,frameworks,FALSE,<p>API testing framework </p>
+Gatling,trial,frameworks,FALSE,<p>Load testing framework </p>
+taiko,assess,frameworks,FALSE,<p>End to End testing library for web applications </p>
+Gauge,assess,frameworks,FALSE,<p>End to End testing library for web applications </p>
+testcontainers,trial,frameworks,FALSE,<p>Library to run integration test across programming languages in containerized applications </p>
+OpenNLP/StanfordNLP/NLTK,adopt,frameworks,FALSE,<p>Libraries for NLP processing in Java and Python</p>
+scikit-learn,adopt,frameworks,FALSE,<p>Machine learning library</p>
+Tensorflow,trial,frameworks,FALSE,<p>ML Library for deep neural networks</p>
+PyTorch,assess,frameworks,FALSE,<p>ML Library for deep neural networks</p>
+MxNet,assess,frameworks,FALSE,<p>Apache library for deep neural networks </p>
+DeepLearning4J,hold,frameworks,FALSE,<p>Deep learning framework for JVM</p>
+sparkmllib,trial,frameworks,FALSE,<p>Scalable machine learning library </p>
+OpenCV,adopt,frameworks,FALSE,<p>Computer vision library </p>
+HyperLedger Fabric,trial,frameworks,FALSE,<p>Block Chain Framework </p>
+GISServer,trial,frameworks,FALSE,<p>GIS backend framework</p>
+Leaflet,adopt,frameworks,FALSE,<p> GIS Javascript framework </p>
+Java,adopt,languages,FALSE,"<p>Oracle https://www.oracle.com/in/java/  says, more than 51 billion Java virtual machines are  run worldwide and it is development platform of choice for enterprises and developers. Though we work with multiple programming languages, Java still remains out go-to langugae to build various solutions. </p>"
+Go,trial,languages,FALSE,"<p> Google created Go https://go.dev/  more than 12 years ago, but was mainly restricted to usecases around system programming, its adaptation has grown rapidly with additional features like dependency  management being added to the language. Also, the frameworks around Go has made it easy to build microservices. With Go being the language used by many of the devops tools, our teams too use Go while working on infrastructure tools. We also use Go as an alternate for building microservices depending on the ecosystem of the product. </p>"
+Scala,trial,languages,FALSE,<p> Scala https://www.scala-lang.org/ is one of the  earliest programming languages built on JVM using both Object Oriented and functional programming. Our teams mainly use Scala while working on popular frameworks like Spark or Glue where the benefits clearly outweigh the learning curve on working with a new language. </p>
+Javascript,adopt,languages,FALSE,"<p>Javascript, originally developed as interpreted language in 10 days to run scripting on browsers is now ubiquitous. We have been working with ever evolving Javascript tools and frameworks for web application development since our inception.  We also leverage JS for building microservices and hybrid mobile application development based on the ecosystem.</p>"
+Python,adopt,languages,FALSE,"<P>Python https://www.python.org/ the language that was invented before Java, HTML or Javascript kept evolving  over years and is widely used not just in software development but in research too.  We at Beehyv extensively use it for scripting across devops tools and NLP/ML. We also consider it as one of the alternatives for building mcroservices. </P>"
+Typescript,trial,languages,FALSE,"<P>Typescript is a strongly typed programming language built on top of Javascript. Static typec hecking with javascript helps in identifying problems before the code is run. In two of the popular web application development javascript frameworks Angular and React, Typescript is the primary language in one and is recommended as one of the alternatives for static code checking in another. We use Typescript for web application development based on the ecosystem and recommend leveraging it</P>"
+PHP,trial,languages,FALSE,"<P>PHP https://www.php.net/ a server scripting language for creating dynamic webpages has several powerful opensoure projects.  Our teams mainly use PHP in maintaining existing applications, though we do leverage PHP based WordPress for building Content Management Systems </p>"
+C#,trial,languages,FALSE,"<P>C#https://docs.microsoft.com/en-us/dotnet/csharp/ was a closed-source programming language built for windows platforms. Though it has evolved and is now open-source and cross-platform, we mainly use C# and its frameworks for windows-specific applications and in enhancing/maintaining existing softwares</P>"
+Swift,adopt,languages,FALSE,"<P>Swift, https://developer.apple.com/swift/ is an opensource programming language built for developing iPadOS, macOS, tvOS, and watchOS. We go with Swift when we choose to build native applications for iOS platforms</p>. "
+Dart,trial,languages,FALSE,"<P> Dart https://dart.dev/ is a programming language optimized for UI. Flutter, powered through Dart is an open source framework for multi-platform development. We consider Flutter as one of the alternatives for hybrid mobile application development.  </P>"
+Rust,assess,languages,FALSE,"<P>Within 5 years of its creation, Rust https://www.rust-lang.org/ has been adapted by many, including big tech firms like FaceBook, Microsoft  and Amazon and is voted as most beloved in Stack Overflow. We need to assess Rust to leverage its benefits </P>"
+Groovy,adopt,languages,FALSE,<P>Groovyhttps://groovy-lang.org/ a programming language built on JVM provides unique benefits for Domain-specific language authoring. We use Groovy mainly in scripting across devops tools.</P>
+Objective-C,hold,languages,FALSE,"<p>Though Apple introducted Swift language more than 8 years ago for iOS application development, there are still many applications developed in Objective-C in AppStore. Though our teams have devloped many applications in Objective-C in the past and would continue to support them as needed, we have shifted completely to Swift for new iOS development and recommened new application developers to use Swift for iOS app development </p>"
+Kotlin,assess,languages,FALSE,"<p>Kotlin https://kotlinlang.org/, an opensource programming language from Jetbrains released in 2016 with compatibility with Java ecosystem has raised in popularity since Android announced its Kotlin first approach in 2019. Now more than 60% of Professional Android developers are in Kotlin. We mainly use Kotlin for native Android development. Though at Beehyv, we lean towards ReactNative and Flutter for building hybrid mobile applications, we think Kotlin needs to be assessed to realise its benefits in building multi-platform applciations and its support for other usecases. </p>"
+Zero Trust Architecture,adopt,techniques,FALSE,"<P> zero trust architecture (ZTA) https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdfis an enterprise cybersecurity architecture that is based on zero trust principles and designed to prevent data breaches and limit internal lateral movement. It is mainly centered on the idea that access to data should not be solely made based on the network location. Along with other secuirty controls for Cloud security, we leverage Zero trust guiding principles while designing new solutions. </P>"
+Programming paradigms,adopt,techniques,FALSE,"<p> Each programming paradigm like declarative, procedural, objective oriented, reactive  and functional programming has its pros/cons and suits specific problems. We have worked across paradigms and would leverage particular paradigm based on the problem </p> "
+Microservices Architecture,adopt,techniques,FALSE,"<p>Microservices architecture is ubiquitous especially for cloud native applications. It mainly refers to applications structured as group of loosely coupled services - with each sevice managed and deployed by a single team. It provides various advantages w.r.t scaling, cost efficiency , continuous delivery among others .  We leverage it across our development </p>"
+Event driven architecture,adopt,techniques,FALSE,<p>Event driven architectures are crucial for building loosely coupled systems. They have already been used for asynchronous communications across systems. Event driven architectures come hand-in-hand with microservices architecture with its basic nature of multiple independant services. We have used it across applications using cloud native messaging/streaming services and also Kafka/RabbitMQ/ActiveMQ and others. </p>
+Using Query langugae methology for APIs - GraphQL,trial,techniques,FALSE,"<p> GraphQL https://graphql.org/ is a query language for API. We have been following it sicne its inception more than 5 years ago. We have checked out internally,  which comes with its own set of Pros and Cons. We  would implement it based on the requirements and exosystem</p>"
+Using Remote Procedure Calls for APIs - gRPC,trial,techniques,FALSE,<p>gRPC https://grpc.io/ is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. We are leveraging it in some applications specially built in Go. we would use it based ont eh requirements and ecosystem </p>
+Design Sprints from Google Ventures,assess,techniques,FALSE,"<p>Design sprint https://www.gv.com/sprint/ is a 5 day process for answering critical business questions through design, prototyping, and testing ideas with customers. We would like to explore it further to  leverage it when applicable </p>"
+Service Mesh for communication,assess,techniques,FALSE,<p>Service Mesh is about controlling service to service communication. Istio is one of the open source platforms widely used for ingress/outgress traffic and also for adding observabiility. We would like to explore this further </p>
+Design Thinking,trial,techniques,FALSE,"<p>Design thinking https://web.stanford.edu/~mshanks/MichaelShanks/files/509554.pdf is a methodology for creative problem solving involving 5 stages empathize, define ideate, prototype, test. This is not just for UX designers but is applicable for many other workflows. We are trying it internally and would apply it when relavant </p>"
+Micro Frontend architecture,assess,techniques,FALSE,"<p> MIcro-frontend architectures is about extending microservices architecture to the frontend, with self-contained teams developing features end to end.  We have seen it implemented in some open source frameworks and would like to explore it further to leverage it </p>"
+Cloud Native security,assess,techniques,FALSE,"<p> Though we have worked with continuous security scanning , we would want to explore mpre upcoming tools for Cloud Native security https://github.com/aquasecurity</p>"
+Security Standards and protocols,adopt,techniques,FALSE,"<p> We have worked with standards - SAML ( Security Assertion Markup Language) and  OAuth protocols for authorization,especially with SSO and microservices authentication. We have worked with Kerberos for Network Authentication specially for Hadoop/distributed processing. We have implemented Active Directory integrations when applicable. We have worked with frameworks built on top of these standards and protcols, we leverage appropraite mechanisms based on the requirements </p> "
+Using GitOps for Continuous deployment,assess,techniques,FALSE,<p>GitOps is brief is about maintaining infrastructure as code in the repository and automatically changing environments from that. We would like to assess it further </p>
+Data Mesh,assess,techniques,TRUE,"<p> Data Mesh is decentralized management of data. We have seen seen some advantages of moving towards Data Mesh from centralized data management/lake houses. Similar to decentralized services, this could be the next big thing. We would like to explore it further </p>"
+AI Pair programmer,assess,techniques,TRUE,"<p>We have checked out  GitHUb Co-pilot https://github.com/features/copilot generating functions from NLP, we would like to closely follow this space to see what can be leveraged </p>"
+Fluentd/Fluentbit,trial,tools&platforms,FALSE,<p> Fluentd is an open source data collector  https://www.fluentd.org/ for unified log analysis. We have used it an alternate to Logstash for cloud agnostic logging.  We would leverage it  based on the ecosystem</p>
+LogStash,adopt,tools&platforms,FALSE,"<p> Logstash , data processing pipeline https://www.elastic.co/logstash/ part of the ELK stack is required for unified log analysis through Elastic/others. We have leveraged it for cloud agnostic logging mechanisms.</p>"
+Metricbeat,assess,tools&platforms,FALSE,<P>System level monitoring tool</p>
+Sentry,assess,tools&platforms,FALSE,<p>Sentry is a developer-first error tracking and performance monitoring platform . We would like to assess it to use in projects </p>
+Chef,trial,tools&platforms,FALSE,"<p>Enterprise infrastructure, application and DevSecops automation <p>"
+Circle CI,trial,tools&platforms,FALSE,<p> CI/CD platform </p>
+Ansible,adopt,tools&platforms,FALSE,<p>IT Automation platform </p>
+Terraform,adopt,tools&platforms,FALSE,<p>Infrastructure as code tool</p>
+Pulumi,assess,tools&platforms,FALSE,<p>Infrastructure as code tool</p>
+Docker,adopt,tools&platforms,FALSE,"<p>Platform to devlop, ship and run applications  </p>"
+Kubernetes,adopt,tools&platforms,FALSE,<p>Container orchestration system</p>
+Jenkins,adopt,tools&platforms,FALSE,"<p>Automation server to build, test and deploy software </p>"
+Gitlab CI,adopt,tools&platforms,FALSE,<p>tool for software development using continouos methodologies</p>
+Github Actions,adopt,tools&platforms,FALSE,<p>Software development workflows automation</p>
+Podman,assess,tools&platforms,FALSE,<p>tool to manage containers and pods </p>
+Kubernetes - Nginx Ingress Controller,adopt,tools&platforms,FALSE,"<p>NGINX Ingress Controller https://www.nginx.com/free-trial-request-nginx-ingress-controller/ is the all-in-one load balancer, cache, API gateway, and WAF with the high performance and light weight that’s perfect for Kubernetes requirements. It is supported by all major cloud providers and we leverage it across kubernetes deployments </p>"
+Argo Workflows,assess,tools&platforms,TRUE,<p>Workflow engine for kubernetes </p>
+Argo CD,assess,tools&platforms,TRUE,<p>Gitops continuous delivery tool for kubernetes </p>
+etcd,trial,tools&platforms,FALSE,"<p>etcd https://etcd.io/ taking its name from Linux ""etc"" for ""d"" distributed systems is a key-value store for storing configuration for distributed systems. We have used it for managing configuration in microservices event-driven platform. In-memory databases also could be used to store configuration information along with other cache information, we would leverage etcd based on the ecosystem </p>"
+Temporal,assess,tools&platforms,TRUE,"<p>Temporal https://temporal.io/use-cases  is a developer-first, open source platform that ensures
+the successful execution of services and applications (using workflows.). We are using it in specfic use-case, we would like to explore it further </p>"
+Clutch,assess,tools&platforms,TRUE,<P>Clutch https://eng.lyft.com/announcing-clutch-the-open-source-platform-for-infrastructure-tooling-143d00de9713  is an Open-source Platform for Infrastructure Tooling. It is very extensible and would like to explore further </p>
+Talend,trial,tools&platforms,FALSE,<p>Talend https://www.talend.com/ is data integration platoform. We have leveraged Talend Opensource for running ETL jobs on big data. We would leverage it based on the ecosystem</p>
+Airflow,trial,tools&platforms,FALSE,<p>Airflow https://airflow.apache.org/ is a workflow management platform with support across cloud platforms.  We have leveraged it building data pipelines and would use it based on the ecosystem </p>
+LeakCanary,assess,tools&platforms,FALSE,<p>Memory leak detection tool for android</p>
+Arrow,assess,tools&platforms,FALSE,<p> Arrow has platform for in-memory analytics using unique format and columnar store . We have used it in one of our projects </p>
+Hive,trial,tools&platforms,FALSE,"<p> Hive https://hive.apache.org/ a datawarehouse software for managing distributed large datasets using SQL. We have leveraged Hive in SQL Engine product. With other cloud alternates in place, we will leverage Hive based on the ecosystem</p>"
+Presto,assess,tools&platforms,FALSE,<p>Distributed SQL Query Engine </p>
+Dremio,assess,tools&platforms,FALSE,<p>Data lakehouse platform</p>
+Neo4J,trial,tools&platforms,FALSE,<p>Graph data platform </p>
+Couch,adopt,tools&platforms,FALSE,<p>Document oriented NoSQL database</p>
+CockroachDB,assess,tools&platforms,FALSE,<p>Cloud Native distributed SQL database </p>
+Hbase,trial,tools&platforms,FALSE,<p>Column oriented hadoop-based big data store </p>
+Cassandra,assess,tools&platforms,FALSE,<p>NoSQL distributed database</p>
+Solr,trial,tools&platforms,FALSE,<p>Enterprise search platform </p>
+Cucumber,trial,tools&platforms,FALSE,<p>Behaviour driven development testing tool</p>
+Jmeter,adopt,tools&platforms,FALSE,<p>Load testing software </p>
+MLFlow,trial,tools&platforms,FALSE,<p>Machine learning lifecycle management platform </p>
+Rasa,trial,tools&platforms,FALSE,<p>Platform for building virtual assistants</p>
+Weka,trial,tools&platforms,FALSE,<p>Tool for implementing various ML algos and data processing</p>
+Maven,adopt,tools&platforms,FALSE,<p>Java build tool </p>
+Gradle,trial,tools&platforms,FALSE,<p>Java build tool </p>
+Pipenv,trial,tools&platforms,FALSE,<p>Python build tool </p>
+Grunt,trial,tools&platforms,FALSE,<p> Javascript build tool </p>
+Gulp,trial,tools&platforms,FALSE,<Javascript build tool </p>
+WebPack,adopt,tools&platforms,FALSE,<p>Javascript module bundler </p>
+Postman,adopt,tools&platforms,FALSE,<p>API platform </p>
+VSCode,adopt,tools&platforms,FALSE,<p>IDE</p>
+JetBrains IDE's IntellIJ/PyCharm,adopt,tools&platforms,FALSE,<p>Language dependant IDE</p>
+Minikube,adopt,tools&platforms,FALSE,<p> Local kubernetes cluster tool </p>
+Snyk,assess,tools&platforms,FALSE,"<p>https://snyk.io/product/open-source-security-management/ helps in detecting vulnerabilities during development. We have integrated it in one of our pipelines for a specific usecase, we would like to explore if we can use it across our projects </p>"
+SonarQube,adopt,tools&platforms,FALSE,"<p>Sonarqube has continuous code quality checks across programming lanaguges, https://www.sonarqube.org/ - we use it across projects to ensure quality of code </p>"
+Swagger,adopt,tools&platforms,FALSE,<p> We use swagger to generate API documentation across projects </p>
+Spinnaker,assess,tools&platforms,FALSE,<p>CLoud Native continuous delivery platform from Netflix and Google. we would like to explore if this can be useful in any of our projects </p>
+Kafka,adopt,tools&platforms,FALSE,<p>Event streaming platform </p>
+RabbitMQ,adopt,tools&platforms,FALSE,<p>messaging system</p>
+ActiveMQ,adopt,tools&platforms,FALSE,<p>Messaging system</p>
+Nagios,trial,tools&platforms,FALSE,<p>Opensource Monitoring tool</p>
+Prometheus,adopt,tools&platforms,FALSE,<p>Opensource Monitoring tool</p>
+MySQL,adopt,tools&platforms,FALSE,MySQL https://www.mysql.com/ is our default opensource relational database . 
+Postgres,adopt,tools&platforms,FALSE,<p>Opensource relational database </p>
+Couch,trial,tools&platforms,FALSE,<p> Document database </p>
+Mongo,adopt,tools&platforms,FALSE,<p> Document database </p>
+Elastic,adopt,tools&platforms,FALSE,<p> NoSQL distributed Search Engine </p>
+Redis,adopt,tools&platforms,FALSE,<p>Cache database </p>
