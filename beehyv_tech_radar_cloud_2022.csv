@@ -1,4 +1,4 @@
-name,ring,quadrant,isNew,description
+name,quadrant,ring,isNew,description
 AWS  EC2,aws,adopt,FALSE,"Elastic Cloud Compute(EC2) is part of AWS compute services and provides Secure and resizeable compute capacity
 (virtual servers) in the cloud. AWS EC2 was among the initial cloud offerings from AWS and we also  have also been using it to deploy various applications since its inception. "
 Azure Virtual Machines,azure,adopt,FALSE,Virtual Machines provides infrastructure as a service (IaaS) and can be used in different ways. VMs are an ideal choice when we  need total control over an operating system and environment. We have used Azure Virtual machines while deploying applications in Azure ecosystem
